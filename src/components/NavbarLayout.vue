@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand /*navbar-expand-lg*/ navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">寶可夢招式機商店後台</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
