@@ -9,7 +9,7 @@ export default defineConfig({
     vue(),
   ],
   // 可參考：https://israynotarray.com/nodejs/20230214/796256725/
-  base: process.env.NODE_ENV === 'production' ? `/${process.env.REPOSITORY_NAME}/` : '/',
+  base: process.env.NODE_ENV === 'production' ? `/PokemonMachineShopDashboard/` : '/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
